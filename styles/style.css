@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
 }
-.site_header {
+header {
   position: relative;
   top: 0;
   left: 0;
@@ -39,5 +39,53 @@ a {
   position: absolute;
   top: 30%;
   right: 25px;
+}
+main {
+  position: relative;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+}
+.content{
+  position: absolute;
+  display: block;
+  height: 310px;
+  width: 100%;
+  overflow: hidden;
+
+}
+.bg_image {
+  position: absolute;
+  top: -350px;
+  width: 100%;
+  z-index: -1;
+}
+.logo {
+  margin-left: 46%;
+  margin-top: 4%;
+  width: 100px;
+  height: 100px;
+}
+.content h1 {
+  margin-left: 39%;
+  margin-top: 15px;
+  font-family: sans-serif;
+  color: white;
+}
+.content p {
+  margin-left: 42.5%;
+  margin-top: 3px;
+  font-size: 13px;
+  color: white;
+}
+.content button {
+  margin-left: 46%;
+  margin-top: 25px;
+  border: 1px solid white;
+  border-radius: 6px;
+  padding: 5px;
+  background: none;
+  color: white;
 
 }
