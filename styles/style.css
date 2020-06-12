@@ -44,8 +44,6 @@ main {
   position: relative;
   top: 0;
   left: 0;
-  justify-content: center;
-  align-items: center;
 }
 .content{
   position: absolute;
@@ -53,7 +51,6 @@ main {
   height: 310px;
   width: 100%;
   overflow: hidden;
-
 }
 .bg_image {
   position: absolute;
@@ -87,5 +84,60 @@ main {
   padding: 5px;
   background: none;
   color: white;
-
+}
+.advantage {
+  position: absolute;
+  top: 310px;
+  margin: 0 auto;
+  padding-top: 80px;
+	height: 200px;
+  width: 100%;
+}
+.text {
+  float: left;
+  padding-left: 165px;
+  height: 100px;
+	width: 20%;
+}
+.text p {
+  margin-top: 18px;
+}
+.about {
+  position: absolute;
+  top: 590px;
+  height: 250px;
+  width: 100%;
+  background: #f7f7f7;
+}
+.about img {
+  margin-left: 20px;
+  height: 170px;
+}
+.about table {
+  margin-left: 25%;
+  padding-top: 20px;
+  width: 50%;
+  border-spacing: 20px 25px;
+}
+.about p {
+  margin-top: 13px;
+}
+.vacation {
+  position: absolute;
+  top: 845px;
+  width: 100%;
+  height: 250px;
+}
+.vacation img {
+  margin-left: 20px;
+  height: 170px;
+}
+.vacation table {
+  margin-left: 340px;
+  padding-top: 20px;
+  width: 50%;
+  border-spacing: 25px 20px;
+}
+.vacation p {
+  margin-top: 13px;
 }
