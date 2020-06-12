@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.site_header {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  overflow: hidden;
+  height: 60px;
+  width: 100%;
+  background: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo_name {
+  width: auto;
+}
+.logo_name img {
+  height: 40px;
+  width: 40px;
+  margin-top: 6px;
+  margin-left: 25px;
+  border: none;
+}
+.title {
+  position: absolute;
+  top: 30%;
+  left: 5.5%;
+}
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #303846;
+  margin-right: 18px;
+}
+.menu {
+  position: absolute;
+  top: 30%;
+  right: 25px;
+
+}
