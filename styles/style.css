@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: serif;
 }
 header {
   position: relative;
@@ -111,12 +112,12 @@ main {
 }
 .about img {
   margin-left: 20px;
-  height: 170px;
+  height: 180px;
 }
 .about table {
-  margin-left: 25%;
+  margin-left: 15%;
   padding-top: 20px;
-  width: 50%;
+  width: 60%;
   border-spacing: 20px 25px;
 }
 .about p {
@@ -129,15 +130,82 @@ main {
   height: 250px;
 }
 .vacation img {
-  margin-left: 20px;
-  height: 170px;
+  margin-right: 20px;
+  height: 180px;
 }
 .vacation table {
   margin-left: 340px;
   padding-top: 20px;
-  width: 50%;
+  width: 60%;
   border-spacing: 25px 20px;
 }
 .vacation p {
   margin-top: 13px;
+}
+.contacts {
+  position: absolute;
+  top: 1098px;
+  padding-top: 50px;
+  height: 450px;
+  width: 100%;
+  background: #f7f7f7;
+  text-align: center;
+  justify-content: center;
+}
+form {
+  text-align: left;
+  margin-left: 400px;
+  height: 250px;
+}
+fieldset {
+  margin-top: 25px;
+  margin-left: 150px;
+  padding-bottom: 25px;
+  width: 35%;
+  background: #f7f7f7;
+  color: rgb(29, 205, 156);
+  border: 2px solid rgb(29, 205, 156);
+}
+fieldset p {
+  padding-left: 25px;
+  padding-top: 15px;
+  color: black;
+  font-weight: bold;
+}
+.choose_room {
+  margin-left: 25px;
+  width: 120px;
+  height: 25px;
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+legend {
+  margin-left: 25px;
+}
+.choose_decoration {
+  margin-left: 105px;
+  width: 120px;
+  height: 25px;
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+fieldset input {
+  float: right;
+  margin-right: 25px;
+  width: 140px;
+  height: 25px;
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+form button {
+  margin-left: 150px;
+  margin-top: 25px;
+  height: 33px;
+  width: 120px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid rgb(29, 205, 156);
+  border-radius: 9px;
+  color: rgb(29, 205, 156);
+  background: none;
 }

@@ -33,7 +33,7 @@
       <img src="images/logo.svg" alt="logo" class="logo">
       <h1>ЖК «Лунное море»</h1>
       <p>Место, откуда не хочется улетать</p>
-      <button type="button" name="button">Забронировать</button>
+      <a href="#contacts"><button type="button" name="button">Забронировать</button></a>
     </div>
 
     <div class="advantage" id="advantage">
@@ -82,7 +82,34 @@
     </table>
   </div>
 
-  
+  <div class="contacts" id="contacts">
+    <h2>Оставьте заявку сегодня!</h2>
+
+    <form>
+    <fieldset>
+     <legend><h3>Параметры квартиры</h3></legend>
+      <p>Количество комнат: <select class="choose_room">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+      </select></p>
+      <p>Отделка: <select class="choose_decoration">
+        <option>Без отделки</option>
+        <option>Чистовая отделка</option>
+        <option>Черновая отделка</option>
+      </select></p>
+    </fieldset>
+
+    <fieldset>
+      <legend><h3>Контактная информация:</h3></legend>
+      <p>Имя: <input type="text" name="" value=""> </p>
+      <p>Телефон: <input type="text" name="" value=""> </p>
+      <p>E-mail: <input type="text" name="" value=""> </p>
+    </fieldset>
+
+    <button type="button" name="button">Отправить</button>
+ </form>
+  </div>
 
 
   </main>
