@@ -83,3 +83,96 @@
   background: none;
   color: white;
 }
+.advantage {
+  display: table-cell;
+  height: 400px;
+  width: 100%;
+}
+.three_advantage {
+  padding-top: 100px;
+  text-align: center;
+}
+.first {
+  display: table-cell;
+  width: 20%;
+  font-size: 20px;
+}
+.second {
+  display: table-cell;
+  width: 20%;
+  font-size: 20px;
+}
+.three {
+  display: table-cell;
+  width: 20%;
+  font-size: 20px;
+}
+.first p, .second p, .three p {
+  padding-top: 15px;
+  padding-left: 85px;
+  font-size: 20px;
+  width: 69%;
+}
+.about {
+  display: table;
+  height: 400px;
+  width: 100%;
+  background: #f7f7f7;
+}
+.content {
+  display: table;
+  width: 100%;
+}
+.first_about {
+  display: table-cell;
+  padding: 105px 25px 105px 165px;
+  width: 40%;
+  vertical-align: middle;
+}
+.first_about h2 {
+  font-size: 30px;
+}
+.first_about p {
+  margin-top: 15px;
+  font-size: 18px;
+}
+.second_about {
+  display: table-cell;
+  width: 40%;
+  padding: 105px;
+  vertical-align: middle;
+}
+.second_about img {
+  height: 230px;
+}
+.vacation {
+  display: table;
+  height: 400px;
+  width: 100%;
+}
+.content_vacation {
+  display: table;
+  width: 100%;
+}
+.first_vacation {
+  display: table-cell;
+  width: 40%;
+  padding: 105px 0 105px 185px;
+  vertical-align: middle;
+}
+.first_vacation img {
+  height: 230px;
+}
+.second_vacation {
+  display: table-cell;
+  padding: 105px 105px 105px 105px;
+  width: 40%;
+  vertical-align: middle;
+}
+.second_vacation h2 {
+  font-size: 30px;
+}
+.second_vacation p {
+  margin-top: 15px;
+  font-size: 18px;
+}
