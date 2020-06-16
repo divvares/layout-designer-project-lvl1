@@ -10,141 +10,140 @@
 </head>
 <body>
 
-<header class="header w-100">
-  <div class="header__menu-left">
-      <div class="header__logo">
+<header class="header">
+  <div class="header__logo">
+    <div class="header__logo__img">
         <a href="#">
-          <img src="images/logo.svg" alt="logo">
+          <img src="images/logo.svg" alt="Logo">
         </a>
-      </div>
-      <div class="header__brand d-tb-cell">
-        <a href="#">Лунное море</a>
-      </div>
-  </div>
-  <nav class="header__menu-right d-tb-cell">
-    <a href="#advantage">Преимущества</a>
-    <a href="#about">О ЖК</a>
-    <a href="#vacation">Места для отдыха</a>
-  </nav>
-</header>
-
-<section class="reserve w-100">
-  <div class="reserve__bg">
-    <div class="reserve__bg-image">
-      <img src="images/banner.png" alt="">
+    </div>
+    <div class="header__brand">
+      <a href="#">Лунное море</a>
     </div>
   </div>
-  <div class="reserve__bg-logo">
-    <img src="images/logo.svg" alt="">
-    <h1>ЖК «Лунное море»</h1>
-    <p>Место, откуда не хочется улетать</p>
-    <a href="#feedback"><button type="button">Забронировать</button></a>
+  <nav class="header__menu">
+    <a href="#">Преимущества</a>
+    <a href="#">О ЖК</a>
+    <a href="#">Места для отдыха</a>
+  </nav>
+  <div class="clearfix"></div>
+</header>
+
+<section class="reserve">
+  <div class="reserve__bg">
+    <div class="reserve__content">
+        <img src="images/logo.svg" alt="">
+        <h1>ЖК «Лунное море»</h1>
+        <p>Место, откуда не хочется улетать</p>
+        <a href="#"><button type="button">Забронировать</button></a>
+    </div>
   </div>
 </section>
 
-<main>
-  <div class="advantage w-100 d-tb-cell" id="advantage">
-    <div class="advantage__content">
-      <div class="advantage__content__direction-left d-tb-cell">
+<main class="main">
+  <div class="advantage">
+    <div class="container">
+      <div class="advantage__content">
         <h2>Уникальный вид</h2>
         <p>Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться метеоритными потоками.</p>
       </div>
-      <div class="advantage__content__direction-middle d-tb-cell">
+      <div class="advantage__content">
         <h2>Инфраструктура</h2>
         <p>Прекрасные дороги рядом с домом. Много мест для прогулки. Всего в 200 км. от посёлка находится кольцо гор Кордильеры, на которых вы сможете провести незабываемые выходные.</p>
       </div>
-      <div class="advantage__content__direction-right d-tb-cell">
+      <div class="advantage__content">
         <h2>Близость к Москве</h2>
         <p>При небольшой цене мы располагаемся близко к МКАД. Всего 384 000 километров и вы в самом сердце России.</p>
       </div>
+      <div class="clearfix"></div>
     </div>
   </div>
 
-  <div class="about w-100" id="about">
-    <div class="about__content w-100">
-      <div class="about__content__direction-left d-tb-cell">
+  <div class="about">
+    <div class="container">
+      <div class="about__content">
         <h2>О ЖК «Лунное море»</h2>
         <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.</p>
         <p>Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от Земли.</p>
       </div>
-      <div class="about__content__direction-right d-tb-cell">
-        <img src="images/moon-1.jpg" alt="">
+      <div class="about__content">
+        <img src="images/moon-1.jpg" alt="bg 1">
       </div>
+      <div class="clearfix"></div>
     </div>
   </div>
 
-  <div class="vacation w-100" id="vacation">
-    <div class="vacation__content">
-      <div class="vacation__content__direction-left d-tb-cell">
-        <img src="images/moon-2.jpg" alt="">
+  <div class="vacation">
+    <div class="container">
+      <div class="vacation__content">
+        <img src="images/moon-2.jpg" alt="bg 2">
       </div>
-      <div class="vacation__content__direction-right d-tb-cell">
+      <div class="vacation__content">
         <h2>Места для отдыха</h2>
         <p>Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.</p>
         <p>Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».</p>
       </div>
+      <div class="clearfix"></div>
     </div>
   </div>
 </main>
 
-
-<article class="feedback-form w-100" id="feedback">
-  <div class="feedback-form__content w-100">
-    <h2>Оставьте заявку сегодня!</h2>
-    <form class="feedback-form__register-form">
-      <fieldset class="feedback-form__fieldset-form">
-        <legend class="feedback-form__legend-line">Параметры квартиры</legend>
-        <p>Количество комнат:
-        <select class="feedback-form_room-number">
+<article class="feedback-form">
+  <div class="feedback-form__content">
+      <h2>Оставьте заявку сегодня!</h2>
+      <form class="feedback-form__register-form">
+        <fieldset class="feedback-form__fieldset-form">
+          <legend class="feedback-form__legend-line">Параметры квартиры</legend>
+          <p>Количество комнат:
+        <select class="feedback-form__room-number float-right fieldset-border-style fieldset-select-style">
           <option>1</option>
           <option>2</option>
           <option>3</option>
         </select></p>
         <p>Отделка:
-        <select class="feedback-form__room-decoration" name="">
+        <select class="feedback-form__room-decoration float-right fieldset-border-style fieldset-select-style" name="">
           <option>Без отделки</option>
           <option>Чистовая отделка</option>
           <option>Получистовая отделка</option>
         </select> </p>
-      </fieldset>
+        </fieldset>
       <fieldset class="feedback-form__fieldset-form">
         <legend class="feedback-form__legend-line">Контактная информация</legend>
-        <p>Имя: <input type="text"></p>
-        <p>Телефон: <input type="text"></p>
-        <p>E-mail: <input type="text"></p>
+        <p>Имя: <input type="text" class="float-right fieldset-border-style"></p>
+        <p>Телефон: <input type="text" class="float-right fieldset-border-style"></p>
+        <p>E-mail: <input type="text" class="float-right fieldset-border-style"></p>
       </fieldset>
-      <button type="button" name="button">Отправить</button>
-    </form>
+      </form>
   </div>
 </article>
 
-<footer class="footer w-100">
-  <div class="footer__content">
-    <div class="footer__content__direction-left d-tb-cell">
-      <div class="footer_content__logo d-tb-cell">
+<footer class="footer">
+  <div class="container">
+    <div class="footer__content">
+      <div class="footer__content__logo">
         <img src="images/logo.svg" alt="">
       </div>
-      <div class="footer__content__name d-tb-cell">
-        <h3>Лунное море</h3>
+      <div class="footer__content__name">
+        <h3 class="footer_topic_one">Лунное море</h3>
       </div>
-        <p><small class="col-white">&copy; 2032 год</small> </p>
+      <p><small class="col-white">&copy; 2032 год</small> </p>
     </div>
-    <div class="footer__content__direction-middle d-tb-cell">
-        <h3>Проектная документация</h3>
+    <div class="footer__content">
+      <h3 class="footer_topic_two">Проектная документация</h3>
         <ul>
           <li>Скачать</li>
           <li>Посмотреть на сайте</li>
         </ul>
     </div>
-    <div class="footer__content__direction-right d-tb-cell">
-        <h3>О застройщике</h3>
+    <div class="footer__content">
+      <h3 class="footer_topic_three">О застройщике</h3>
       <ul>
         <li>Отзывы</li>
         <li>Сайт компании</li>
       </ul>
     </div>
+    <div class="clearfix"></div>
   </div>
 </footer>
-
 </body>
 </html>
