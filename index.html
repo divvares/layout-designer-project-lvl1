@@ -83,34 +83,73 @@
     </div>
   </main>
 
-  <article class="feedback-form w-100 p-tb-80" id="feedback">
+  <section class="feedback-form w-100 p-tb-80" id="feedback">
   <div class="feedback-form__content d-flex">
       <h2>Оставьте заявку сегодня!</h2>
       <form class="feedback-form__register-form">
         <fieldset class="feedback-form__fieldset-form d-flex">
           <legend class="feedback-form__legend-line">Параметры квартиры</legend>
-          <p>Количество комнат:
-        <select class="feedback-form__room-number fieldset-border-style">
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-        </select></p>
-        <p>Отделка:
-        <select class="feedback-form__room-decoration fieldset-border-style" name="">
-          <option>Без отделки</option>
-          <option>Чистовая отделка</option>
-          <option>Получистовая отделка</option>
-        </select> </p>
+          <div class="feedback-form__content-border d-flex">
+            <div class="feedback-form__content-inside d-flex flex-d-row a-i-center">
+              <div class="feedback-form__content__label pl-30 d-flex f-b-5">
+                <label>Количество комнат:</label>
+              </div>
+              <div class="feedback-form__content__select d-flex f-b-50 j-c-fe">
+                <select class="fieldset-border-style w-150 styleLTR">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                </select>
+              </div>
+            </div>
+            <div class="feedback-form__content-inside d-flex flex-d-row a-i-center">
+              <div class="feedback-form__content__label pl-30 d-flex f-b-50">
+                <label>Отделка:</label>
+              </div>
+              <div class="feedback-form__content__select d-flex f-b-50 j-c-fe">
+                <select class="fieldset-border-style w-150 mr-46">
+                  <option>Без отделки</option>
+                  <option>Чистовая отделка</option>
+                  <option>Получистовая отделка</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
         </fieldset>
       <fieldset class="feedback-form__fieldset-form">
         <legend class="feedback-form__legend-line">Контактная информация</legend>
-        <p>Имя: <input type="text" class="feedback-form__input-form1 fieldset-border-style"></p>
-        <p>Телефон: <input type="text" class="feedback-form__input-form2 fieldset-border-style"></p>
-        <p>E-mail: <input type="text" class="feedback-form__input-form3 fieldset-border-style"></p>
+          <div class="feedback-form__content-inside a-i-center d-flex flex-d-row">
+            <div class="feedback-form__content__label pl-30 d-flex f-b-50">
+              <label>Имя:</label>
+            </div>
+            <div class="feedback-form__content__input d-flex f-b-50 j-c-fe">
+              <input type="text" class="input-form mr-18 fieldset-border-style">
+            </div>
+          </div>
+
+          <div class="feedback-form__content-inside a-i-center d-flex flex-d-row">
+            <div class="feedback-form__content__label pl-30 d-flex f-b-50">
+              <label>Телефон:</label>
+            </div>
+            <div class="feedback-form__content__input d-flex f-b-50 j-c-fe">
+              <input type="text" class="input-form mr-18 fieldset-border-style">
+            </div>
+          </div>
+
+          <div class="feedback-form__content-inside a-i-center d-flex flex-d-row">
+            <div class="feedback-form__content__label pl-30 d-flex f-b-50">
+              <label>E-mail:</label>
+            </div>
+            <div class="feedback-form__content__input d-flex f-b-50 j-c-fe">
+              <input type="text" class="input-form mr-18 fieldset-border-style">
+            </div>
+          </div>
       </fieldset>
+      <button type="button" name="button" class="feedback-form__button-form">Отправить</button>
       </form>
   </div>
-  </article>
+</section>
 
   <footer class="footer w-100">
     <div class="container d-flex flex-d-row">
